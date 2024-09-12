@@ -64,12 +64,12 @@ const works: Work[] = [
 const services: Service[] = [
     { img: `${images.bio}`, title: "Estreen Biotechnology", text: 'Innovating in health and environmental solutions through biotechnology.', web: 'http://easternbiotechnology.com' },
     { img: `${images.com}`, title: "Estreen Communication", text: 'Providing advanced telecommunication services for seamless connectivity.', web: 'http://eastern-comm.com' },
-    { img: `${images.food}`, title: "Eastreen Food Industries", text: 'Delivering high-quality, safe, and nutritious food products globally.', web: 'https://royalmultani.pk/' },
-    { img: `${images.lab}`, title: "Eastreen Laboratories", text: 'Offering accurate and reliable diagnostic and research services.', web: 'http://easternlaboratories.com' },
-    { img: `${images.quick}`, title: "QuickBio", text: 'Improving healthcare through innovative medical products and technologies.', web: 'http://quickbiodiagnostics.com' },
-    { img: `${images.scientific}`, title: "Eastreen Scientific Corporation", text: 'Supplying top-tier scientific equipment and resources for research.', web: 'http://easternscientific.com.pk' },
-    { img: `${images.batool}`, title: "Batool Asgher Foundation", text: 'Promoting education, healthcare, and social welfare initiatives.', web: 'https://asgharsons.com/' },
     { img: `${images.asgher}`, title: "Asgher Sons", text: 'A trusted family-owned business with diverse industry operations.', web: 'https://asgharsons.com/' },
+    { img: `${images.quick}`, title: "Royal Multani", text: 'One of the pioneer of mango exporter that provide high quality mangos.', web: 'http://quickbiodiagnostics.com' },
+    { img: `${images.lab}`, title: "Eastreen Laboratories", text: 'Offering accurate and reliable diagnostic and research services.', web: 'http://easternlaboratories.com' },
+    { img: `${images.scientific}`, title: "Eastreen Scientific Corporation", text: 'Supplying top-tier scientific equipment and resources for research.', web: 'http://easternscientific.com.pk' },
+    { img: `${images.food}`, title: "Eastreen Food Industries", text: 'Delivering high-quality, safe, and nutritious food products globally.', web: 'https://royalmultani.pk/' },
+    { img: `${images.batool}`, title: "Batool Asgher Foundation", text: 'Promoting education, healthcare, and social welfare initiatives.', web: 'https://asgharsons.com/' },
 ];
 
 const testimonials: Testimonial[] = [

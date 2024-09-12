@@ -6,12 +6,13 @@ const Navbar = () => {
 
     return (
         <nav className="py-10 lg:py-0">
-            <div className="mx-[5%] flex justify-between items-center">
+            <div className=" flex justify-between items-center">
+                <div className="px-[5%] bg-white bg-opacity-80 w-full flex justify-between">
                 <div className="flex items-center justify-between w-full">
                     {/* <a href="index.html" className="text-white text-4xl">
                         Eastreen
                     </a> */}
-                    <a href=""><img src="/Favicon.png" className="w-28" alt="" /></a>
+                    <a href=""><img src="/nav.png" className="w-40" alt="" /></a>
                     <button
                         type="button"
                         className="lg:hidden text-light"
@@ -21,12 +22,12 @@ const Navbar = () => {
                     </button>
                 </div>
 
-                <div className="hidden lg:flex text-white py-16">
+                <div className="hidden lg:flex text-[#2E73B0] py-8">
                     <ul className="flex items-center">
                         <li className="ml-16 whitespace-nowrap">
                             <a
                                 href="#home"
-                                className="uppercase font-semibold text-light hover:text-robin-blue"
+                                className="uppercase font-bold text-light hover:text-robin-blue"
                             >
                                 home
                             </a>
@@ -34,7 +35,7 @@ const Navbar = () => {
                         <li className="ml-16 whitespace-nowrap">
                             <a
                                 href="#services"
-                                className="uppercase font-semibold text-light hover:text-robin-blue"
+                                className="uppercase font-bold text-light hover:text-robin-blue"
                             >
                                 Services
                             </a>
@@ -42,7 +43,7 @@ const Navbar = () => {
                         <li className="ml-16 whitespace-nowrap">
                             <a
                                 href="#products"
-                                className="uppercase font-semibold text-light hover:text-robin-blue"
+                                className="uppercase font-bold text-light hover:text-robin-blue"
                             >
                                 Products
                             </a>
@@ -50,7 +51,7 @@ const Navbar = () => {
                         <li className="ml-16 whitespace-nowrap">
                             <a
                                 href="#about"
-                                className="uppercase font-semibold text-light hover:text-robin-blue"
+                                className="uppercase font-bold text-light hover:text-robin-blue"
                             >
                                 About Us
                             </a>
@@ -58,12 +59,13 @@ const Navbar = () => {
                         <li className="ml-16 whitespace-nowrap">
                             <a
                                 href="#contact"
-                                className="uppercase font-semibold text-light hover:text-robin-blue"
+                                className="uppercase font-bold text-light hover:text-robin-blue"
                             >
                                 Contact Us
                             </a>
                         </li>
                     </ul>
+                </div>
                 </div>
 
                 {toggleMenu && (
@@ -79,7 +81,7 @@ const Navbar = () => {
                             <li>
                                 <a
                                     href="#home"
-                                    className="uppercase font-semibold text-2xl hover:pl-4 transition-all"
+                                    className="uppercase font-bold text-2xl hover:pl-4 transition-all"
                                 >
                                     home
                                 </a>
@@ -87,7 +89,7 @@ const Navbar = () => {
                             <li>
                                 <a
                                     href="#about"
-                                    className="uppercase font-semibold text-2xl hover:pl-4 transition-all"
+                                    className="uppercase font-bold text-2xl hover:pl-4 transition-all"
                                 >
                                     about
                                 </a>
@@ -95,7 +97,7 @@ const Navbar = () => {
                             <li>
                                 <a
                                     href="#work"
-                                    className="uppercase font-semibold text-2xl hover:pl-4 transition-all"
+                                    className="uppercase font-bold text-2xl hover:pl-4 transition-all"
                                 >
                                     work
                                 </a>
@@ -103,7 +105,7 @@ const Navbar = () => {
                             <li>
                                 <a
                                     href="#process"
-                                    className="uppercase font-semibold text-2xl hover:pl-4 transition-all"
+                                    className="uppercase font-bold text-2xl hover:pl-4 transition-all"
                                 >
                                     process
                                 </a>
@@ -111,7 +113,7 @@ const Navbar = () => {
                             <li>
                                 <a
                                     href="#services"
-                                    className="uppercase font-semibold text-2xl hover:pl-4 transition-all"
+                                    className="uppercase font-bold text-2xl hover:pl-4 transition-all"
                                 >
                                     services
                                 </a>
@@ -119,7 +121,7 @@ const Navbar = () => {
                             <li>
                                 <a
                                     href="#testimonials"
-                                    className="uppercase font-semibold text-2xl hover:pl-4 transition-all"
+                                    className="uppercase font-bold text-2xl hover:pl-4 transition-all"
                                 >
                                     testimonials
                                 </a>
@@ -127,7 +129,7 @@ const Navbar = () => {
                             <li>
                                 <a
                                     href="#contact"
-                                    className="uppercase font-semibold text-2xl hover:pl-4 transition-all"
+                                    className="uppercase font-bold text-2xl hover:pl-4 transition-all"
                                 >
                                     contact
                                 </a>

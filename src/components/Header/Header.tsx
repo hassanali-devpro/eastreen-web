@@ -18,7 +18,7 @@ const Header = () => (
     <div className="container mx-auto">
       <div className="min-h-[calc(100vh-106px)] flex flex-col items-center justify-center text-center text-white lg:flex-row">
         <div className="lg:w-1/2 mt-[10%] text-center lg:text-left animate-slide-up">
-          <h1 className="text-5xl font-semibold leading-tight">Eastreen Group of Companies</h1>
+          <h1 className="text-5xl font-semibold leading-tight">Eastern Group of Companies</h1>
           <p className="py-5 pb-10 max-w-xl mx-auto lg:mx-0">
             Leading Global Conglomerate, Driving Innovation and Sustainability across Diverse Sectors Worldwide.
           </p>
