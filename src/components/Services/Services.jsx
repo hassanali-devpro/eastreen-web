@@ -10,7 +10,7 @@ const Services = () => {
             <div className="container mx-auto px-4">
                 <div className="flex justify-center w-full mb-8">
                     <h2 className="text-2xl font-semibold uppercase">
-                        Eastreen Group of Companies
+                        Eastern Group of Companies
                     </h2>
                 </div>
                 <ScrollTrigger onEnter={() => setIsEnter(true)} onExit={() => setIsEnter(false)}>

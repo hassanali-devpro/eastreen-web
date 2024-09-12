@@ -5,7 +5,7 @@ const Navbar = () => {
     const [toggleMenu, setToggleMenu] = useState(false);
 
     return (
-        <nav className="py-10 lg:py-0">
+        <nav className="">
             <div className=" flex justify-between items-center">
                 <div className="px-[5%] bg-white bg-opacity-80 w-full flex justify-between">
                 <div className="flex items-center justify-between w-full">
@@ -18,7 +18,7 @@ const Navbar = () => {
                         className="lg:hidden text-light"
                         onClick={() => setToggleMenu(true)}
                     >
-                        <FaBars size={26} className="text-white" />
+                        <FaBars size={26} className="text-[#2E73B0]" />
                     </button>
                 </div>
 
@@ -69,7 +69,7 @@ const Navbar = () => {
                 </div>
 
                 {toggleMenu && (
-                    <div className="fixed inset-0 bg-robin-blue h-full w-full p-12 z-50 shadow-lg transition-transform lg:hidden bg-[#035BA8]">
+                    <div className="fixed inset-0 bg-robin-blue h-full w-full p-12 z-50 shadow-lg transition-transform lg:hidden bg-[#035BA8] animate-slide-up">
                         <button
                             type="button"
                             className="absolute top-8 right-8 text-light"
@@ -77,11 +77,11 @@ const Navbar = () => {
                         >
                             <FaTimes size={32} className="text-white" />
                         </button>
-                        <ul className="flex flex-col items-center space-y-8 text-light text-white">
+                        <ul className="flex flex-col items-start space-y-8 text-light text-white mt-10">
                             <li>
                                 <a
                                     href="#home"
-                                    className="uppercase font-bold text-2xl hover:pl-4 transition-all"
+                                    className="uppercase font-semibold text-2xl hover:pl-4 transition-all"
                                 >
                                     home
                                 </a>
@@ -89,7 +89,7 @@ const Navbar = () => {
                             <li>
                                 <a
                                     href="#about"
-                                    className="uppercase font-bold text-2xl hover:pl-4 transition-all"
+                                    className="uppercase font-semibold text-2xl hover:pl-4 transition-all"
                                 >
                                     about
                                 </a>
@@ -97,7 +97,7 @@ const Navbar = () => {
                             <li>
                                 <a
                                     href="#work"
-                                    className="uppercase font-bold text-2xl hover:pl-4 transition-all"
+                                    className="uppercase font-semibold text-2xl hover:pl-4 transition-all"
                                 >
                                     work
                                 </a>
@@ -105,7 +105,7 @@ const Navbar = () => {
                             <li>
                                 <a
                                     href="#process"
-                                    className="uppercase font-bold text-2xl hover:pl-4 transition-all"
+                                    className="uppercase font-semibold text-2xl hover:pl-4 transition-all"
                                 >
                                     process
                                 </a>
@@ -113,7 +113,7 @@ const Navbar = () => {
                             <li>
                                 <a
                                     href="#services"
-                                    className="uppercase font-bold text-2xl hover:pl-4 transition-all"
+                                    className="uppercase font-semibold text-2xl hover:pl-4 transition-all"
                                 >
                                     services
                                 </a>
@@ -121,7 +121,7 @@ const Navbar = () => {
                             <li>
                                 <a
                                     href="#testimonials"
-                                    className="uppercase font-bold text-2xl hover:pl-4 transition-all"
+                                    className="uppercase font-semibold text-2xl hover:pl-4 transition-all"
                                 >
                                     testimonials
                                 </a>
@@ -129,7 +129,7 @@ const Navbar = () => {
                             <li>
                                 <a
                                     href="#contact"
-                                    className="uppercase font-bold text-2xl hover:pl-4 transition-all"
+                                    className="uppercase font-semibold text-2xl hover:pl-4 transition-all"
                                 >
                                     contact
                                 </a>

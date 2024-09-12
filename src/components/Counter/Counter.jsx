@@ -7,7 +7,7 @@ const Counter = () => {
     const [isEnter, setIsEnter] = useState(false);
 
     return (
-        <div className="bg-[#2974b6] px-[10%] sm:py-[5%] py-[10%]">
+        <div className="bg-[#2974b6] px-[10%] sm:py-[5%] py-[10%] grid md:grid-cols-2 ">
             <ScrollTrigger onEnter={() => setIsEnter(true)} onExit={() => setIsEnter(false)}>
                 <div className={isEnter ? 'animate-slide-up' : ''}>
                     <h1 className="text-4xl font-semibold text-white">Our Achievements</h1>
@@ -17,37 +17,25 @@ const Counter = () => {
                     </p>
                 </div>
             </ScrollTrigger>
-
-            <div>
-                <ScrollTrigger onEnter={() => setCounterOn(true)} onExit={() => setCounterOn(false)}>
-                    <div className="grid lg:grid-cols-4 grid-cols-2 gap-5" id="about">
-                        {/* <div>
-                            <h1 className="text-gray-200 text-6xl font-bold">
-                                {counterOn && <CountUp start={0} end={100} duration={2} delay={0} />}+
-                            </h1>
-                            <p className="text-gray-200 font-semibold">Sales</p>
-                        </div> */}
+            <ScrollTrigger onEnter={() => setCounterOn(true)} onExit={() => setCounterOn(false)}>
+                <div className="flex items-center">
+                    <div className="md:block hidden h-64 w-1 bg-gradient-to-b from-[#2974b6] via-white to-[#2974b6] mx-10"></div>
+                    <div className="flex gap-20 w-full h-full items-center justify-center" id="about">
                         <div>
-                            <h1 className="text-gray-200 text-6xl font-bold">
-                                {counterOn && <CountUp start={0} end={99} duration={2} delay={0} />}%
-                            </h1>
-                            <p className="text-gray-200 font-semibold">Happy Clients</p>
-                        </div>
-                        {/* <div>
-                            <h1 className="text-gray-200 text-6xl font-bold">
-                                {counterOn && <CountUp start={0} end={70} duration={2} delay={0} />}+
-                            </h1>
-                            <p className="text-gray-200 font-semibold">Team Members</p>
-                        </div> */}
-                        <div>
-                            <h1 className="text-gray-200 text-6xl font-bold">
+                            <h1 className="text-gray-200 text-6xl font-bold m">
                                 {counterOn && <CountUp start={0} end={16} duration={2} delay={0} />}
                             </h1>
                             <p className="text-gray-200 font-semibold">Sub Companies</p>
                         </div>
+                        <div>
+                            <h1 className="text-gray-200 text-6xl font-bold ">
+                                {counterOn && <CountUp start={0} end={99} duration={2} delay={0} />}%
+                            </h1>
+                            <p className="text-gray-200 font-semibold">Happy Clients</p>
+                        </div>
                     </div>
-                </ScrollTrigger>
-            </div>
+                </div>
+            </ScrollTrigger>
         </div>
     );
 };

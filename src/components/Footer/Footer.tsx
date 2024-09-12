@@ -6,8 +6,8 @@ const Footer = () => {
             <div className="container mx-auto">
                 <div className="grid gap-20 text-center md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-[2fr_1fr_1fr_1fr_1fr] xl:text-left">
                     <div className="footer__content--item">
-                        <a href="#" className="text-4xl block mb-4 font-semibold">Eastreen Group of Companies</a>
-                        <p className="text-base">&copy; 2024 Eastreen Group All rights reserved.</p>
+                        <a href="#" className="text-4xl block mb-4 font-semibold">Eastern Group of Companies</a>
+                        <p className="text-base">&copy; 2024 Eastern Group All rights reserved.</p>
                     </div>
 
                     <div className="footer__content--item">

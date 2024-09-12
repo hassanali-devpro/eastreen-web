@@ -25,7 +25,7 @@ const Contact = () => {
     };
 
     return (
-        <div className="mx-auto py-10 bg-whitesmoke">
+        <div className="md:mx-auto mx-[10%] py-10 bg-whitesmoke">
             <div className="text-center">
                 <h2 className="text-4xl font-semibold py-10">Need some Help?</h2>
                 <p className="text-lg italic max-w-xl mx-auto">
