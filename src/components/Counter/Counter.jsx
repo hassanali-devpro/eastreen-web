@@ -9,12 +9,11 @@ const Counter = () => {
     return (
         <div className="bg-[#2974b6] px-[10%] sm:py-[5%] py-[10%] grid md:grid-cols-2 ">
             <ScrollTrigger onEnter={() => setIsEnter(true)} onExit={() => setIsEnter(false)}>
-                <div className={isEnter ? 'animate-slide-up' : ''}>
-                    <h1 className="text-4xl font-semibold text-white">Our Achievements</h1>
+                <div className={isEnter ? 'animate-slide-right' : ''}>
+                    <h1 className="text-4xl font-semibold text-white">Our Mission</h1>
                     {/* <div className="border-b-2 w-[100%] my-5" style={{ borderImage: 'linear-gradient(to right, #ffffff, #c000ff) 1' }}></div> */}
                     <p className="pb-10 text-gray-300 pt-5">
-                        Our services enhance your online presence and user engagement through Web Development, Mobile Development, UI/UX Design, SEO, Digital Marketing, and Graphic Designing. We create robust websites, high-performance apps, seamless user experiences, improved search engine rankings, data-driven marketing campaigns, and captivating visuals, all tailored to your business goals.
-                    </p>
+                    Our innovative solutions drive advancements in biotechnology, enhance food safety and sustainability, improve communication in the healthcare sector, support charitable initiatives, and optimize laboratory processes. We deliver cutting-edge technologies, impactful communication strategies, and tailored services that foster growth, efficiency, and positive societal impact across these critical industries.                    </p>
                 </div>
             </ScrollTrigger>
             <ScrollTrigger onEnter={() => setCounterOn(true)} onExit={() => setCounterOn(false)}>
