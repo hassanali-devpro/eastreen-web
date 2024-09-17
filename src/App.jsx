@@ -5,7 +5,7 @@ import NotFound from './pages/NotFound';
 import ProgressPage from './pages/ProgressPage';
 import Companies from './pages/Companies';
 import Verticals from './pages/Verticals';
-import About from './pages/about/';
+import About from './pages/About';
 import Footer from './components/Footer/Footer';
 import MoveUp from './components/MoveUp/MoveUp';
 import Chat from './components/Chat/Chat';
