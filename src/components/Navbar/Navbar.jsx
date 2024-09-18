@@ -54,14 +54,6 @@ const Navbar = () => {
                                     About Us
                                 </a>
                             </li>
-                            <li className="ml-16 whitespace-nowrap">
-                                <a
-                                    href="/contact"
-                                    className="uppercase font-bold text-light hover:text-robin-blue"
-                                >
-                                    Contact Us
-                                </a>
-                            </li>
                         </ul>
                     </div>
                 </div>
@@ -110,14 +102,6 @@ const Navbar = () => {
                                 className="uppercase font-semibold text-2xl hover:pl-4 transition-all"
                             >
                                 About Us
-                            </a>
-                        </li>
-                        <li>
-                            <a
-                                href="/contact"
-                                className="uppercase font-semibold text-2xl hover:pl-4 transition-all"
-                            >
-                                Contact Us
                             </a>
                         </li>
                     </ul>
