@@ -45,8 +45,8 @@ AboutUs.propTypes = {
     title: PropTypes.string.isRequired,
     description: PropTypes.string.isRequired,
     image: PropTypes.string.isRequired,
-    web: PropTypes.string.isRequired,
-    ceo: PropTypes.string.isRequired,
+    web: PropTypes.string,
+    ceo: PropTypes.string,
 };
 
 export default AboutUs;

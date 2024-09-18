@@ -56,7 +56,7 @@ const Navbar = () => {
                             </li>
                             <li className="ml-16 whitespace-nowrap">
                                 <a
-                                    href="#contact"
+                                    href="/contact"
                                     className="uppercase font-bold text-light hover:text-robin-blue"
                                 >
                                     Contact Us
