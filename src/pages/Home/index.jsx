@@ -5,6 +5,7 @@ import Services from "../../components/Services/Services";
 import images from "../../constants/images";
 import Message from '../../components/Message';
 import Contact from "../../components/Contact/Contact";
+import FAQ from "../../components/FAQ/Index";
 
 const index = () => {
     const aboutUsInfo = {
@@ -42,6 +43,7 @@ const index = () => {
             <Services />
             <Counter />
             <Message text={messageText} image={images.ceo} />
+            <FAQ />
             <Contact />
 
         </div>

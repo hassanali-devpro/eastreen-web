@@ -13,6 +13,7 @@ const Footer = () => {
                     <div className="footer__content--item">
                         <p className="text-xl">info@easterngrouppk.com</p>
                         <span className="block mt-2 text-base">UAN: +92 421 111 111 16</span>
+                        <p className="block mt-2 text-base">Head Office: <span> Lahore, Pakistan</span></p>
                     </div>
 
                     <div className="footer__content--item">
