@@ -6,7 +6,7 @@ import { messageText } from "../../constants/data"; // Ensure this import matche
 const Index = () => {
     const HeaderData = {
         title: "Operating Sectors",
-        description: "Leading Global Conglomerate, Driving Innovation and Sustainability across Diverse Sectors Worldwide.",
+        description: "Diverse Expertise Across Global Markets",
         buttonText: "Contact Us",
         buttonLink: "/",
     };

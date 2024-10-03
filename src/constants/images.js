@@ -20,10 +20,12 @@ import health from "../assets/images/health.jpeg"
 import marketing from "../assets/images/marketing.jpeg"
 import education from "../assets/images/education.jpeg"
 import services from "../assets/images/services.jpeg"
+import ceo2 from "../assets/images/ceo2.jpg"
 
 
 const images = {
     ceo,
+    ceo2,
     eastern,
     logo,
     asgher,

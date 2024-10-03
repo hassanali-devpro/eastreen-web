@@ -2,8 +2,10 @@ import { useEffect, useRef, useState } from 'react';
 import PropTypes from 'prop-types';
 import { Slider } from "../../constants/images";
 import Navbar from "../../components/Navbar/Navbar";
+import { Link as ScrollLink } from 'react-scroll';
 
-const Header = ({ title, description, buttonText, buttonLink }) => {
+
+const Header = ({ title, description, buttonText }) => {
   const [activeIndex, setActiveIndex] = useState(0);
   const itemsRef = useRef([]);
 
@@ -28,15 +30,20 @@ const Header = ({ title, description, buttonText, buttonLink }) => {
                 }`}
             >
               <img src={image} alt={`Slide ${index + 1}`} className="w-full h-full object-cover" />
-              <div className="absolute inset-0 bg-gradient-to-r from-black/60 to-transparent"></div> {/* Gradient Overlay */}
+              <div className="absolute inset-0 bg-gradient-to-r from-black/80 to-transparent"></div> {/* Gradient Overlay */}
               <div className="absolute w-full text-center lg:text-left ml-[10%] bottom-[20%] animate-slide-up text-white">
                 <h1 className="text-5xl font-semibold leading-tight">{title}</h1>
-                <p className="py-5 pb-10 max-w-xl mx-auto lg:mx-0">
+                <p className=" pb-8 text-xl max-w-xl mx-auto lg:mx-0">
                   {description}
                 </p>
-                <a href={buttonLink} className="btn bg-[#035BA8] text-white py-3 px-6 rounded-lg hover:bg-[#2974b6] transition">
+                <ScrollLink
+                  to="contact"
+                  spy={true}
+                  smooth={true}
+                  offset={0}
+                  duration={500} className="btn bg-[#035BA8] text-white py-3 px-6 rounded-full hover:bg-[#2974b6] transition cursor-pointer">
                   {buttonText}
-                </a>
+                </ScrollLink>
               </div>
             </div>
           ))}

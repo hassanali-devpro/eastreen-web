@@ -8,7 +8,7 @@ const index = () => {
 
     const HeaderData = {
         title: "Eastern Companies",
-        description: "Eastreen Group of Companies, a global leader in diverse sectors, driving sustainable innovation and setting new standards of excellence.",
+        description: "Driving Innovation Through Expertise",
         buttonText: "Contact Us",
         buttonLink: "/"
     };
@@ -28,6 +28,7 @@ const index = () => {
                 description={info.description}
                 image={info.image}
                 web={info.web}
+                ID={info.ID}
                 />
             ))}
             <Contact />

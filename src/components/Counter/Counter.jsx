@@ -24,13 +24,13 @@ const Counter = () => {
                             <h1 className="text-gray-200 text-6xl font-bold m">
                                 {counterOn && <CountUp start={0} end={16} duration={2} delay={0} />}
                             </h1>
-                            <p className="text-gray-200 font-semibold">Sub Companies</p>
+                            <p className="text-gray-200 font-semibold">Number of Companies</p>
                         </div>
                         <div>
                             <h1 className="text-gray-200 text-6xl font-bold ">
                                 {counterOn && <CountUp start={0} end={99} duration={2} delay={0} />}%
                             </h1>
-                            <p className="text-gray-200 font-semibold">Happy Clients</p>
+                            <p className="text-gray-200 font-semibold">Satisfied Clients</p>
                         </div>
                     </div>
                 </div>

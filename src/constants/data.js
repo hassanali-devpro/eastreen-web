@@ -29,10 +29,10 @@ export const services = [
     { img: images.bio, title: "Eastern Biotechnology", text: 'Innovating in health and environmental solutions through biotechnology.', web: 'http://easternbiotechnology.com' },
     { img: images.com, title: "Eastern Communication", text: 'Providing advanced telecommunication services for seamless connectivity.', web: 'http://eastern-comm.com' },
     { img: images.asgher, title: "Asghar Sons", text: 'A trusted family-owned business with diverse industry operations.', web: 'https://asgharsons.com/' },
-    { img: images.quick, title: "Royal Multani", text: 'One of the pioneers of mango export that provides high-quality mangos.', web: 'http://quickbiodiagnostics.com' },
+    { img: images.quick, title: "Royal Multani", text: 'One of the pioneers of mango export that provides high-quality mangos.', web: 'https://royalmultani.pk/' },
     { img: images.lab, title: "Eastern Laboratories", text: 'Offering accurate and reliable diagnostic and research services.', web: 'http://easternlaboratories.com' },
     { img: images.scientific, title: "Eastern Scientific Corporation", text: 'Supplying top-tier scientific equipment and resources for research.', web: 'http://easternscientific.com.pk' },
-    { img: images.food, title: "Eastern Food Industries", text: 'Delivering high-quality, safe, and nutritious food products globally.', web: 'https://royalmultani.pk/' },
+    { img: images.food, title: "Eastern Food Industries", text: 'Delivering high-quality, safe, and nutritious food products globally.', web: 'http://quickbiodiagnostics.com' },
     { img: images.batool, title: "Batool Asghar Foundation", text: 'Promoting education, healthcare, and social welfare initiatives.', web: 'https://asgharsons.com/' },
 ];
 
@@ -49,49 +49,57 @@ export const aboutUsInfo = [
         image: images.com, 
         title: "Eastern Communication", 
         description: 'Eastern Communication is committed to providing state-of-the-art telecommunication services that ensure seamless connectivity for individuals and businesses. With cutting-edge technology and a customer-centric approach, we offer reliable and efficient solutions to meet the evolving demands of the modern world. Whether you need high-speed internet, crystal-clear voice services, or reliable data solutions, we tailor our offerings to fit your needs. Our services are designed to keep you connected, no matter where you are, with unmatched support and innovation that sets us apart in the telecommunications industry.', 
-        web: 'http://eastern-comm.com' 
+        web: 'http://eastern-comm.com', 
+        ID: "Communication"
     },
     { 
         image: images.asgher, 
         title: "Asghar Sons", 
         description: 'Asghar Sons is a family-owned enterprise that has successfully diversified across multiple industries. With roots in construction, manufacturing, and trading, we have steadily expanded our footprint to become a key player in these sectors. Our unwavering commitment to quality, integrity, and customer satisfaction has made us a trusted name, recognized for our ability to blend traditional values with modern innovation. From building infrastructure to manufacturing high-quality goods, we strive to create value for our stakeholders while ensuring long-term growth and sustainability.', 
-        web: 'https://asgharsons.com/' 
+        web: 'https://asgharsons.com/',
+        ID: "Asghar"
     },
     { 
         image: images.lab, 
         title: "Eastern Laboratories", 
         description: 'Eastern Laboratories is a premier provider of diagnostic and research services, dedicated to offering accurate and reliable results. We combine cutting-edge technology with a team of expert professionals to ensure the highest standards of precision in our work. Our laboratories specialize in a wide range of diagnostic services, including clinical testing, molecular diagnostics, and pharmaceutical research, supporting both healthcare professionals and research institutions. We are committed to advancing scientific knowledge and improving patient outcomes through reliable, timely, and accurate services.', 
-        web: 'http://easternlaboratories.com' 
+        web: 'http://easternlaboratories.com',
+        ID: "Laboratories" 
     },
     { 
         image: images.quick, 
         title: "Royal Multani", 
         description: 'Royal Multani is a pioneer in mango exports, renowned for delivering the highest quality mangos to markets around the world. We carefully oversee every step of the process, from cultivation to export, ensuring that our mangos retain their unparalleled taste, freshness, and quality. By implementing strict international standards, we have gained a global reputation for excellence, making Royal Multani a leading name in the agricultural export industry. Our mission is to bring the authentic flavors of Pakistan’s finest mangos to consumers worldwide, spreading the rich heritage of Multani mangoes.', 
-        web: 'http://quickbiodiagnostics.com' 
+        web: 'https://royalmultani.pk/',
+        ID: "Royal" 
     },
     { 
         image: images.bio, 
         title: "Eastern Biotechnology", 
         description: 'Eastern Biotechnology is at the forefront of innovation in health and environmental solutions. Our research spans a wide range of biotechnological applications, including genetic engineering, bioinformatics, and environmental monitoring. We focus on developing products and services that address critical global challenges, such as combating diseases, enhancing agricultural yields, and promoting environmental sustainability. Through collaborative research and a commitment to excellence, we aim to contribute to a healthier and more sustainable world, pushing the boundaries of what biotechnology can achieve.', 
-        web: 'http://easternbiotechnology.com' 
+        web: 'http://easternbiotechnology.com',
+        ID: "Biotechnology" 
     },
     { 
         image: images.scientific, 
         title: "Eastern Scientific Corporation", 
         description: 'Eastern Scientific Corporation is a leading supplier of high-quality scientific equipment and resources for the research community. From advanced microscopy and imaging tools to precision laboratory instruments, we provide scientists with the equipment they need to drive discoveries and advancements across multiple fields. Our commitment to supporting research excellence is backed by a comprehensive catalog of specialized tools and technologies, ensuring that scientists can access the best resources to further their work. We pride ourselves on being a trusted partner for academic institutions, laboratories, and researchers worldwide.', 
-        web: 'http://easternscientific.com.pk' 
+        web: 'http://easternscientific.com.pk',
+        ID: "Scientific" 
     },
     { 
         image: images.food, 
         title: "Eastern Food Industries", 
         description: 'Eastern Food Industries is a global leader in the production and distribution of safe, nutritious, and high-quality food products. Our portfolio spans a diverse range of food categories, all sourced from the finest ingredients and manufactured in world-class facilities. We are passionate about promoting healthy living by offering food products that not only taste great but also contribute to a balanced diet. By combining advanced food processing techniques with a deep commitment to food safety, we ensure that consumers everywhere have access to wholesome, delicious, and nutritious meals.', 
-        web: 'https://royalmultani.pk/' 
+        web: 'https://royalmultani.pk/',
+        ID: "Food" 
     },
     { 
         image: images.batool, 
         title: "Batool Asghar Foundation", 
         description: 'The Batool Asghar Foundation is dedicated to improving lives through initiatives focused on education, healthcare, and social welfare. We believe in creating lasting change by empowering individuals and communities with the resources they need to succeed. Our educational programs aim to provide underprivileged students with access to quality education, while our healthcare initiatives focus on improving access to essential medical services. Through targeted social welfare projects, we strive to uplift the most vulnerable members of society, promoting equality and a brighter future for all.', 
-        web: 'https://asgharsons.com/' 
+        web: 'https://asgharsons.com/',
+        ID: "Batool" 
     }
 ];
 
@@ -161,5 +169,61 @@ export const messageText = [
         paragraph3: "Eastern Group of Companies delivers high-quality services to support and enhance your business operations."
     }
 ];
-
-export default { skills, stats, works, services, testimonials, messageText };
+const files = [
+    {
+      name: "Customer Service Manager (Job Analysis Sheet)",
+      path: "/Customer_Service_Manager_Job_Analysis_Sheet.docx",
+      description: "Download the job analysis sheet for the Customer Service Manager role."
+    },
+    {
+      name: "Sales Executive (EG)",
+      path: "/Sales_Executive_EG.docx",
+      description: "Download the job description for the Sales Executive (EG) position."
+    },
+    {
+      name: "Dairy Division (AM - Key Accounts)",
+      path: "/Dairy_Division_AM_Key_Accounts.docx",
+      description: "Download the job description for AM - Key Accounts in Dairy Division."
+    },
+    {
+      name: "Dairy Division (AM - Sales)",
+      path: "/Dairy_Division_AM_Sales.docx",
+      description: "Download the job description for AM - Sales in Dairy Division."
+    },
+    {
+      name: "Executive Secretary JD",
+      path: "/Executive_Secretary_JD.docx",
+      description: "Download the job description for the Executive Secretary role."
+    },
+    {
+      name: "Executive Secretary",
+      path: "/Executive_Secretary.docx",
+      description: "Another document for the Executive Secretary role."
+    },
+    {
+      name: "Financial Controller",
+      path: "/Financial_Controller.docx",
+      description: "Download the job description for the Financial Controller role."
+    },
+    {
+      name: "General Manager (JDs)",
+      path: "/General_Manager_JDs.docx",
+      description: "Download the job description for the General Manager role."
+    },
+    {
+      name: "GM",
+      path: "/GM.docx",
+      description: "Another document for the General Manager role."
+    },
+    {
+      name: "Local Sales Manager",
+      path: "/Local_Sales_Manager.docx",
+      description: "Download the job description for the Local Sales Manager role."
+    },
+    {
+      name: "NSM (Animal Health & Nutrition)",
+      path: "/NSM_Animal_Health_Nutrition.docx",
+      description: "Download the job description for the NSM role in Animal Health & Nutrition."
+    }
+  ];
+export default { skills, stats, works, services, testimonials, messageText, files };
