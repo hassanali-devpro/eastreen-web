@@ -41,7 +41,7 @@ const AboutUs = ({ title, description, image, web, ceo, ID }) => {
                                 </div>
                             ) : null}
                         </div>
-                        <img src={image} alt="about us image" className={`${isEnter ? 'animate-slide-left' : 'opacity-0 translate-y-10'} transition-all duration-1000 lg:size-[40%] rounded-3xl`} />
+                        <img src={image} alt="about us image" className={`${isEnter ? 'animate-slide-left' : 'opacity-0 translate-y-10'} transition-all duration-1000 lg:size-[30%] rounded-3xl`} />
                     </div>
                 </div>
             </div>

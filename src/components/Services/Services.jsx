@@ -6,7 +6,7 @@ const Services = () => {
     const [isEnter, setIsEnter] = useState(false);
 
     return (
-        <div className="services py-16 bg-whitesmoke">
+        <div className="services py-16 bg-whitesmoke p-[10%]">
             <div className="container mx-auto px-4">
                 <div className="flex justify-center w-full mb-8">
                     <h2 className="text-2xl font-semibold uppercase">

@@ -13,7 +13,11 @@ const Counter = () => {
                     <h1 className="text-4xl font-semibold text-white">Our Mission</h1>
                     {/* <div className="border-b-2 w-[100%] my-5" style={{ borderImage: 'linear-gradient(to right, #ffffff, #c000ff) 1' }}></div> */}
                     <p className="pb-10 text-gray-300 pt-5">
-                    Our innovative solutions drive advancements in biotechnology, enhance food safety and sustainability, improve communication in the healthcare sector, support charitable initiatives, and optimize laboratory processes. We deliver cutting-edge technologies, impactful communication strategies, and tailored services that foster growth, efficiency, and positive societal impact across these critical industries.                    </p>
+                    To drive positive change through cutting-edge solutions and ethical practices.</p>
+                    <h1 className="text-4xl font-semibold text-white">Our Vision</h1>
+                    {/* <div className="border-b-2 w-[100%] my-5" style={{ borderImage: 'linear-gradient(to right, #ffffff, #c000ff) 1' }}></div> */}
+                    <p className="pb-10 text-gray-300 pt-5">
+                    To be a global leader in innovation, sustainability, and excellence across all sectors.</p>
                 </div>
             </ScrollTrigger>
             <ScrollTrigger onEnter={() => setCounterOn(true)} onExit={() => setCounterOn(false)}>
@@ -22,9 +26,9 @@ const Counter = () => {
                     <div className="flex gap-20 w-full h-full items-center justify-center" id="about">
                         <div>
                             <h1 className="text-gray-200 text-6xl font-bold m">
-                                {counterOn && <CountUp start={0} end={16} duration={2} delay={0} />}
+                                {counterOn && <CountUp start={0} end={7} duration={2} delay={0} />}
                             </h1>
-                            <p className="text-gray-200 font-semibold">Number of Companies</p>
+                            <p className="text-gray-200 font-semibold">Companies</p>
                         </div>
                         <div>
                             <h1 className="text-gray-200 text-6xl font-bold ">

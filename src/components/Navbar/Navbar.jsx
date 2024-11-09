@@ -7,7 +7,7 @@ const navItems = [
   { label: "Companies", path: "/Companies" },
   { label: "Sectors", path: "/Verticals" },
   { label: "About Us", path: "/about" },
-  { label: "Investors", path: "/investor" },
+  // { label: "Investors", path: "/investor" },
   { label: "Careers", path: "/careers" },
 ];
 
@@ -48,7 +48,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`fixed top-0 w-full z-10 transition-all duration-300 ease-in-out lg:py-0 py-4 ${
+      className={`fixed top-0 w-full z-50 transition-all duration-300 ease-in-out lg:py-0 py-4 ${
         isScrolled ? "bg-white shadow-md" : "bg-gradient-to-b from-gray-800 to-transparent"
       }`}
       onMouseEnter={() => setIsScrolled(true)} // Set to true on hover

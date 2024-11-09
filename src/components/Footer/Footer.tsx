@@ -2,8 +2,8 @@ import React from "react";
 
 const Footer = () => {
     return (
-        <footer className="footer py-16 bg-dark text-light bg-[#2974B6] text-white">
-            <div className="container mx-auto">
+        <footer className="footer py-16 bg-dark text-light bg-[#2974B6] text-white px-[8%]">
+            <div className="container">
                 <div className="grid gap-20 text-center md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-[2fr_1fr_1fr_1fr_1fr] xl:text-left">
                     <div className="footer__content--item">
                         <a href="#" className="text-4xl block mb-4 font-semibold">Eastern Group of Companies</a>

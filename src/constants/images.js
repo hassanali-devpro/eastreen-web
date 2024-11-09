@@ -21,6 +21,8 @@ import marketing from "../assets/images/marketing.jpeg"
 import education from "../assets/images/education.jpeg"
 import services from "../assets/images/services.jpeg"
 import ceo2 from "../assets/images/ceo2.jpg"
+import group4 from "../assets/images/group4.jpg"
+import group5 from "../assets/images/group5.jpg"
 
 
 const images = {
@@ -39,12 +41,15 @@ const images = {
 };
 
 const Slider = {
+    group5,
     eastern,
+    group4,
     ceo,
-    group2,
-    group,
+    // group,
     group0,
+    // group2,
     // group3,
+    
 };
 
 const verticals = {

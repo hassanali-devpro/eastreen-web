@@ -30,7 +30,7 @@ const Header = ({ title, description, buttonText }) => {
                 }`}
             >
               <img src={image} alt={`Slide ${index + 1}`} className="w-full h-full object-cover" />
-              <div className="absolute inset-0 bg-black bg-opacity-50 lg:bg-gradient-to-r from-black/80 to-transparent"></div> {/* Gradient Overlay */}
+              <div className="absolute inset-0 bg-gradient-to-r from-black/50 to-black/40 lg:from-black/70 lg:to-transparent"></div> {/* Gradient Overlay */}
               <div className="absolute w-full text-center lg:text-left lg:ml-[10%] bottom-[20%] animate-slide-up text-white">
                 <h1 className="text-5xl font-semibold leading-tight">{title}</h1>
                 <p className=" pb-8 text-xl max-w-xl mx-auto lg:mx-0">
